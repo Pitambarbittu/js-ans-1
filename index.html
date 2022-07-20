@@ -79,37 +79,6 @@ foo(); // Invoke it using the variable <br>
 
     </p>
     
-    <h3>6.What are closures? </h3>
-    <p>
-        Ans-- <br>
-        A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). <br>
-         In other words, a closure gives you access to an outer function's scope from an inner function. <br>
-          In JavaScript, closures are created every time a function is created, at function creation time. <br> <br>
-          
-        </p>
-
-  <h3>7.Give an example of closure</h3>
-         <p> function OuterFunction() {<br>
-
-            var outerVariable = 100; <br>
-          
-            function InnerFunction() { <br>
-                console.log(outerVariable); <br>
-            } <br>
-          
-            return InnerFunction; <br>
-          } <br>
-           var innerFunc=OuterFunction(); <br>
-           innerFunc();</p>
-
-           <h3>8.Explain call(),apply(),and bind() methods ?</h3>
-           <p>
-            Ans-- <br>
-           -->  call(): The call() method invokes a function with a given this value and arguments provided one by one <br> <br>
-        --> apply:Invokes the function with a given this value and allows you to pass in arguments as an array <br> <br>
-    --> bind: returns a new function, allowing you to pass any number of arguments
-           
-           </p>
-          
+   
 </body>
 </html>
